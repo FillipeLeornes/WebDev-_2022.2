@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+.menu {
+    border-radius: 10px;
+}
+
+.menu:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
+.name {
+    color: rgb(15, 20, 25);
+}
+
+.id {
+    color: rgb(83, 100, 113);
+}
+
+.bio {
+    color: rgb(15, 20, 25);
+}
+
+.locDate {
+    color: rgb(83, 100, 113);
+}
+
+.date {
+    color: rgb(83, 100, 113);
+}
+
+.text {
+    color: rgb(15, 20, 25);
+}
+a.int {
+    color: rgb(15, 20, 25);
+    font: bold;
+}
+
+a.int:hover {
+    text-decoration: underline;
+}
+
+.statistic {
+    color: rgb(83, 100, 113);
+}
+
+.statistic:hover {
+    text-decoration: underline;
+}
+
+.menu2 {
+    border-radius: 10px;
+}
+
+.menu2:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
+.actions {
+color: rgb(83, 100, 113);
+border-radius: 10px;
+}
+
+.actions:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 0.1);
+}
+
+
+.tzeet {
+    color: rgb(15, 20, 25);
+}
+.tzeet:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}

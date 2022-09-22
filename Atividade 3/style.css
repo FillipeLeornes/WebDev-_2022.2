@@ -1,14 +1,28 @@
 body {
-    
     background-color: white;
     color: rgb(15, 20, 25);
 }
 
-.menu {
-    border-radius: 10px;
+.navigation {
+    height: 100vh;
 }
 
-.menu:hover {
+.menu_line {
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.edit_profile{
+    width: 72;
+    height: 32;
+    margin: -32 auto 20 0;
+    float: right;
+    font-size: 11;
+    border-radius: 10px;
+    border-style: none;
+}
+.menu_line:hover {
     background-color: rgba(15, 25, 20, 0.1);
 }
 
@@ -16,12 +30,27 @@ body {
     border-radius: 10px;
     width: 100px;
     border-style: none;
-    background-color: rgb(10, 113, 10);
+    margin: 0 auto;
 }
+.perfil_image {
+    margin: 16 600 16 8;
+    border-radius: 100%;
+    background-color: rgb(23, 91, 181);
+}
+.tiziu_icon{
+    margin: 16 auto 16 8;
+}
+
 .name {
     color: rgb(15, 20, 25);
 }
 
+.profile {
+    text-align: left;
+}
+.adress {
+    text-align: left;
+}
 .id {
     color: rgb(83, 100, 113);
 }
@@ -83,22 +112,3 @@ border-radius: 10px;
 .tzeet:hover {
     background-color: rgba(0, 0, 0, 0.03);
 }
-/*
-.bgblue{
-    width: 100%;
-    height: 15px;
-    background-color: blue;
-    display: flex;
-    justify-content: space-around;
-}
-.bgred{ background-color:red;
-    width: 20%;
-    height: 15px;}
-.bgyelow{ background-color:yellow;
-    width: 50%;
-
-    height: 15px;}
-.bggreen{ background-color:green;
-    width: 20%;
-
-    height: 15px;}*/

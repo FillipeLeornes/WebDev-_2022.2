@@ -3,17 +3,22 @@ body {
     color: rgb(15, 20, 25);
 }
 
+body a {
+    text-decoration: none;
+    color: black;
+  }
+
 .navigation {
     height: 100vh;
 }
 
-.menu_line {
+.menuLine {
     border-radius: 10px;
     padding: 8px;
-    margin-left: 32%;
-    margin-right: 32%;
+    margin-left: 22%;
+    margin-right: 22%;
 }
-.edit_profile{
+.editProfileBttn{
     width: 72;
     height: 32;
     margin: -32 auto 20 0;
@@ -22,7 +27,7 @@ body {
     border-radius: 10px;
     border-style: none;
 }
-.menu_line:hover {
+.menuLine:hover {
     background-color: rgba(15, 25, 20, 0.1);
 }
 
@@ -32,12 +37,13 @@ body {
     border-style: none;
     margin: 0 auto;
 }
-.perfil_image {
+.perfilImage {
     margin: 16 600 16 8;
     border-radius: 100%;
     background-color: rgb(23, 91, 181);
 }
 .tiziu_icon{
+    padding-left: 8;
     margin: 16 auto 16 8;
 }
 
@@ -48,18 +54,18 @@ body {
 .profile {
     text-align: left;
 }
-.adress {
+.content {
     text-align: left;
-}
-.id {
-    color: rgb(83, 100, 113);
 }
 
 .bio {
     color: rgb(15, 20, 25);
 }
+.id {
+    color: rgb(83, 100, 113);
+}
 
-.locDate {
+.locDate a{
     color: rgb(83, 100, 113);
 }
 
@@ -71,39 +77,41 @@ body {
     color: rgb(15, 20, 25);
 }
 
-a.int {
-    color: rgb(15, 20, 25);
-    font: bold;
-}
-
 a.int:hover {
     text-decoration: underline;
-}
-
-.statistic {
-    color: rgb(83, 100, 113);
-}
-
-.statistic:hover {
-    text-decoration: underline;
-}
-
-.menu2 {
-    border-radius: 10px;
-}
-
-.menu2:hover {
     background-color: rgba(15, 25, 20, 0.1);
 }
 
-.actions {
-color: rgb(83, 100, 113);
-border-radius: 10px;
+.statistic a{
+    color: rgb(83, 100, 113);
 }
 
-.actions:hover {
-    background-color: rgba(29, 155, 240, 0.1);
-    color: rgba(29, 155, 240, 0.1);
+a.statistic:hover {
+    text-decoration: none;
+}
+
+.publications a {
+    text-decoration: none;
+    padding : 10px 25px;
+    color : rgb(83, 100, 113);
+}
+
+.publications a:hover
+{
+    background-color : rgb(83, 100, 113);
+    color : white;
+    border-radius: 10px;
+}
+
+.reply:hover {
+   color:rgba(29, 155, 240, 1); 
+}
+
+.like:hover {
+    color: rgba(249, 24, 128, 1);
+}
+.retzeet:hover{
+    color:  rgba(0, 186, 124, 1);
 }
 
 .tzeet {
